@@ -107,5 +107,3 @@ python AttendanceProject.py
 
 Aasrita Sangani  
 B.Tech CSE (AIML)  
-
-Building intelligent systems with practical impact.
