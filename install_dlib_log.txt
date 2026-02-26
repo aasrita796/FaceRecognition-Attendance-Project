@@ -1,0 +1,242 @@
+﻿Using pip 26.0.1 from C:\Users\aasri\Face_Recognition\.venv\lib\site-packages\pip (python 3.10)
+Collecting dlib
+  Using cached dlib-20.0.0.tar.gz (3.3 MB)
+  Installing build dependencies: started
+python :   Running command installing build dependencies for dlib
+At line:1 char:1
++ python -m pip install dlib --verbose 2>&1 | Out-File install_dlib_log ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  Running comma...encies for dlib:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Using pip 26.0.1 from C:\Users\aasri\Face_Recognition\.venv\Lib\site-packages\pip (python 3.10)
+  Collecting setuptools
+    Obtaining dependency information for setuptools from https://files.pythonhosted.org/packages/e1/c6/76dc613121b793
+286a3f91621d7b75a2b493e0390ddca50f11993eadf192/setuptools-82.0.0-py3-none-any.whl.metadata
+    Using cached setuptools-82.0.0-py3-none-any.whl.metadata (6.6 kB)
+  Collecting wheel
+    Obtaining dependency information for wheel from https://files.pythonhosted.org/packages/87/22/b76d483683216dde3d6
+7cba61fb2444be8d5be289bf628c13fc0fd90e5f9/wheel-0.46.3-py3-none-any.whl.metadata
+    Using cached wheel-0.46.3-py3-none-any.whl.metadata (2.4 kB)
+  Collecting packaging>=24.0 (from wheel)
+    Obtaining dependency information for packaging>=24.0 from https://files.pythonhosted.org/packages/b7/b9/c538f279a
+4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl.metadata
+    Using cached packaging-26.0-py3-none-any.whl.metadata (3.3 kB)
+  Using cached setuptools-82.0.0-py3-none-any.whl (1.0 MB)
+  Using cached wheel-0.46.3-py3-none-any.whl (30 kB)
+  Using cached packaging-26.0-py3-none-any.whl (74 kB)
+  Installing collected packages: setuptools, packaging, wheel
+    Creating C:\Users\aasri\AppData\Local\Temp\pip-build-env-4qdf_18w\overlay\Scripts
+
+  Successfully installed packaging-26.0 setuptools-82.0.0 wheel-0.46.3
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing tools/python\dlib.egg-info\PKG-INFO
+  writing dependency_links to tools/python\dlib.egg-info\dependency_links.txt
+  writing top-level names to tools/python\dlib.egg-info\top_level.txt
+  reading manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'tools\python\build*'
+  no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+  no previously-included directories found matching 'dlib\test'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE.txt'
+  writing manifest file 'tools/python\dlib.egg-info\SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info
+  writing C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\PKG-INFO
+  writing dependency_links to 
+C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\dependency_links.txt
+  writing top-level names to 
+C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\top_level.txt
+  writing manifest file 'C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\SOURCES.txt'
+  reading manifest file 'C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  no previously-included directories found matching 'tools\python\build*'
+  no previously-included directories found matching 'dlib\cmake_utils\*\build*'
+  no previously-included directories found matching 'dlib\test'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE.txt'
+  writing manifest file 'C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib.egg-info\SOURCES.txt'
+  creating 'C:\Users\aasri\AppData\Local\Temp\pip-modern-metadata-hj2ifn0j\dlib-20.0.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: dlib
+  Building wheel for dlib (pyproject.toml): started
+  Running command Building wheel for dlib (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_ext
+  <string>:163: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  Building extension for Python 3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]
+  Invoking CMake setup: 'cmake 
+C:\Users\aasri\AppData\Local\Temp\pip-install-4stjbt0z\dlib_9bfce402cd764f0289b9ecb3a3cee711\tools\python -DCMAKE_LIB
+RARY_OUTPUT_DIRECTORY=C:\Users\aasri\AppData\Local\Temp\pip-install-4stjbt0z\dlib_9bfce402cd764f0289b9ecb3a3cee711\bu
+ild\lib.win-amd64-cpython-310 -DPYTHON_EXECUTABLE=C:\Users\aasri\Face_Recognition\.venv\Scripts\python.exe 
+-DDLIB_USE_FFMPEG=OFF -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\aasri\AppData\Local\Temp\pip-install-4stjbt0z
+\dlib_9bfce402cd764f0289b9ecb3a3cee711\build\lib.win-amd64-cpython-310 -A x64'
+  -- Building for: Visual Studio 18 2026
+  -- The C compiler identification is MSVC 19.50.35724.0
+  -- The CXX compiler identification is MSVC 19.50.35724.0
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual 
+Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting C compile features
+  -- Detecting C compile features - done
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual 
+Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe - skipped
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  CMake Deprecation Warning at C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3
+cee711/dlib/external/pybind11/CMakeLists.txt:13 (cmake_minimum_required):
+    Compatibility with CMake < 3.10 will be removed from a future version of
+    CMake.
+
+    Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+    to tell CMake that the project requires at least <min> but has been updated
+    to work with policies introduced by <max> or earlier.
+
+
+  -- pybind11 v2.12.0
+  CMake Deprecation Warning at C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3
+cee711/dlib/external/pybind11/tools/FindPythonLibsNew.cmake:110 (cmake_policy):
+    The OLD behavior for policy CMP0148 will be removed from a future version
+    of CMake.
+
+    The cmake-policies(7) manual explains that the OLD behaviors of all
+    policies are deprecated and that a policy should be set to OLD only under
+    specific short-term circumstances.  Projects should be ported to the NEW
+    behavior and not rely on setting a policy to OLD.
+  Call Stack (most recent call first):
+    C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3cee711/dlib/external/pybind
+11/tools/pybind11Tools.cmake:50 (find_package)
+    C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3cee711/dlib/external/pybind
+11/tools/pybind11Common.cmake:192 (include)
+    C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3cee711/dlib/external/pybind
+11/CMakeLists.txt:247 (include)
+
+
+  -- Found PythonInterp: C:/Users/aasri/Face_Recognition/.venv/Scripts/python.exe (found suitable version "3.10", 
+minimum required is "3.6")
+  -- Found PythonLibs: C:/Users/aasri/AppData/Local/Programs/Python/Python310/libs/python310.lib
+  -- Performing Test HAS_MSVC_GL_LTCG
+  -- Performing Test HAS_MSVC_GL_LTCG - Success
+  -- Using CMake version: 4.3.0-rc1
+  -- Compiling dlib version: 20.0.0
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of void*
+  -- Check size of void* - done
+  -- Enabling SSE2 instructions
+  -- Searching for JPEG XL
+  -- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE)
+  -- PkgConfig could not be found, JPEG XL support won't be available
+  -- Searching for BLAS and LAPACK
+  -- Searching for BLAS and LAPACK
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+  -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+  -- Looking for pthread_create in pthreads
+  -- Looking for pthread_create in pthreads - not found
+  -- Looking for pthread_create in pthread
+  -- Looking for pthread_create in pthread - not found
+  -- Found Threads: TRUE
+  CMake Warning (dev) at 
+C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3cee711/dlib/CMakeLists.txt:652 
+(find_package):
+    Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+    --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+    set the policy and suppress this warning.
+
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+
+  CUDA_TOOLKIT_ROOT_DIR not found or specified
+  -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+(Required is at least version "7.5")
+  -- Found CUDA, but CMake was unable to find the cuBLAS libraries that should be part of every basic CUDA install. 
+Your CUDA install is somehow broken or incomplete. Since cuBLAS is required for dlib to use CUDA we won't use CUDA.
+  -- DID NOT FIND CUDA
+  -- Disabling CUDA support for dlib.  DLIB WILL NOT USE CUDA
+  -- Configuring done (104.2s)
+  -- Generating done (0.3s)
+  -- Build files have been written to: C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289
+b9ecb3a3cee711/build/temp.win-amd64-cpython-310/Release
+  Invoking CMake build: 'cmake --build . --config Release -- /m'
+  MSBuild version 18.3.0-release-26070-10+3972042b7 for .NET Framework
+
+  C:\Program Files (x86)\Microsoft Visual 
+Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(558,5): warning MSB8029: The Intermediate 
+directory or Output directory cannot reside under the Temporary directory as it could lead to issues with 
+incremental build. [C:\Users\aasri\AppData\Local\Temp\pip-install-4stjbt0z\dlib_9bfce402cd764f0289b9ecb3a3cee711\buil
+d\temp.win-amd64-cpython-310\Release\ZERO_CHECK.vcxproj]
+    1>Checking Build System
+  C:\Program Files (x86)\Microsoft Visual 
+Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(558,5): warning MSB8029: The Intermediate 
+directory or Output directory cannot reside under the Temporary directory as it could lead to issues with 
+incremental build. [C:\Users\aasri\AppData\Local\Temp\pip-install-4stjbt0z\dlib_9bfce402cd764f0289b9ecb3a3cee711\buil
+d\temp.win-amd64-cpython-310\Release\dlib_build\dlib.vcxproj]
+    Building Custom Rule 
+C:/Users/aasri/AppData/Local/Temp/pip-install-4stjbt0z/dlib_9bfce402cd764f0289b9ecb3a3cee711/dlib/CMakeLists.txt
+    base64_kernel_1.cpp
+    bigint_kernel_1.cpp
+    bigint_kernel_2.cpp
+    bit_stream_kernel_1.cpp
+    entropy_decoder_kernel_1.cpp
+    entropy_decoder_kernel_2.cpp
+    entropy_encoder_kernel_1.cpp
+    entropy_encoder_kernel_2.cpp
+    md5_kernel_1.cpp
+    tokenizer_kernel_1.cpp
+    unicode.cpp
+    test_for_odr_violations.cpp
+    fft.cpp
+    sockets_kernel_1.cpp
+    bsp.cpp
+    dir_nav_kernel_1.cpp
+    dir_nav_kernel_2.cpp
+    dir_nav_extensions.cpp
+    fonts.cpp
+    linker_kernel_1.cpp
+    extra_logger_headers.cpp
+    logger_kernel_1.cpp
+    logger_config_file.cpp
+    misc_api_kernel_1.cpp
+    misc_api_kernel_2.cpp
+    sockets_extensions.cpp
+    sockets_kernel_2.cpp
+    sockstreambuf.cpp
+    sockstreambuf_unbuffered.cpp
+    server_kernel.cpp
+    server_iostream.cpp
+    server_http.cpp
+    multithreaded_object_extension.cpp
+    threaded_object_extension.cpp
+    threads_kernel_1.cpp
+    threads_kernel_2.cpp
+    threads_kernel_shared.cpp
+    thread_pool_extension.cpp
+    async.cpp
+    timer.cpp
+    stack_trace.cpp
+    cpu_dlib.cpp
+    tensor_tools.cpp
+    image_dataset_metadata.cpp
+    mnist.cpp
+    cifar.cpp
+    global_function_search.cpp
+    kalman_filter.cpp
+    auto.cpp
+    widgets.cpp
+    drawable.cpp
+    canvas_drawing.cpp
+    style.cpp
