@@ -1,110 +1,111 @@
-Face Recognition Attendance System 🎯
+# Face Recognition Attendance System 🎯
 
 A real-time face recognition system that automatically marks attendance and stores records in a CSV file.
 
 Built using Python and OpenCV, this project detects faces from a live webcam feed, matches them against stored images, and logs verified identities with timestamps — fully automated and contactless.
 
-🚀 Project Overview
+---
+
+## 🚀 Project Overview
 
 This system:
 
-Captures live video using webcam 📷
-
-Detects and encodes facial features 🧠
-
-Compares faces with stored dataset
-
-Identifies matched individuals
-
-Logs name and time into Attendance.csv 📄
-
-Prevents duplicate entries automatically
+- Captures live video using webcam 📷  
+- Detects and encodes facial features 🧠  
+- Compares faces with stored dataset  
+- Identifies matched individuals  
+- Logs name and time into `Attendance.csv` 📄  
+- Prevents duplicate entries automatically  
 
 The dataset currently includes sample identities such as:
+- Kendall
+- Kylie
+- Hailey
+- Elon
 
-Kendall Jenner
+---
 
-Kylie Jenner
+## 🛠 Tech Stack
 
-Hailey Bieber
+- Python 🐍  
+- OpenCV 👁️  
+- face_recognition  
+- NumPy  
+- CSV file handling 📊  
 
-Elon Musk
+---
 
-🛠 Tech Stack
+## 📂 Project Structure
 
-Python 🐍
-
-OpenCV 👁️
-
-face_recognition
-
-NumPy
-
-CSV file handling 📊
-
-📂 Project Structure
 FACE_RECOGNITION/
 │
 ├── .venv/
-├── ImagesAttendance/        # Stored face images
+├── ImagesAttendance/
 │   ├── Kendall.jpg
 │   ├── Kylie.jpg
 │   ├── Hailey.jpg
 │   └── Elon.jpg
 │
-├── AttendanceProject.py     # Main face recognition script
-├── Basics.py                # Supporting script
-├── Attendance.csv           # Attendance records
+├── AttendanceProject.py
+├── Basics.py
+├── Attendance.csv
 ├── requirements.txt
 └── README.md
-⚙️ How It Works
 
-Load images from ImagesAttendance/
+---
 
-Generate face encodings
+## ⚙️ How It Works
 
-Start webcam feed 📷
-
-Detect faces in each frame
-
-Compare with known encodings
-
-If matched → log name and current time into Attendance.csv ⏱️
+1. Load images from `ImagesAttendance/`  
+2. Generate face encodings  
+3. Start webcam feed 📷  
+4. Detect faces in each frame  
+5. Compare with known encodings  
+6. If matched → log name and current time into `Attendance.csv` ⏱️  
 
 Efficient. Accurate. Real-time.
 
-📑 Sample Attendance Format
-Name, Time
-KENDALL, 09:15:23
-KYLIE, 09:17:02
-HAILEY, 09:20:11
-💻 Installation
+---
+
+## 📑 Sample Attendance Format
+
+Name, Time  
+KENDALL, 09:15:23  
+KYLIE, 09:17:02  
+HAILEY, 09:20:11  
+
+---
+
+## 💻 Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/Face_Recognition.git
-cd Face_Recognition
+git clone https://github.com/your-username/Face_Recognition.git  
+cd Face_Recognition  
 
 Install dependencies:
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 Run the project:
 
-python AttendanceProject.py
-🌟 Future Improvements
+python AttendanceProject.py  
 
-Excel (.xlsx) integration
+---
 
-Web-based dashboard 🌐
+## 🌟 Future Improvements
 
-Database storage
+- Excel (.xlsx) integration  
+- Web-based dashboard 🌐  
+- Database storage  
+- Admin authentication 🔐  
+- Attendance analytics 📈  
 
-Admin authentication 🔐
+---
 
-Attendance analytics and reports 📈
+## 👩‍💻 Author
 
-👩‍💻 Author
+Aasrita Sangani  
+B.Tech CSE (AIML)  
 
-Aasrita Sangani
-B.Tech CSE (AIML)
+Building intelligent systems with practical impact.
